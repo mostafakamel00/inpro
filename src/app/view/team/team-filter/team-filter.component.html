@@ -1,0 +1,21 @@
+<div class="filters">
+  <mat-form-field appearance="fill">
+    <mat-label>{{ 'role' | translate }}</mat-label>
+    <mat-select [(ngModel)]="selectedRole" (selectionChange)="onFilterChange($event, 'role')">
+      <mat-option value="all">{{ "all" | translate }}</mat-option>
+      <mat-option *ngFor="let role of memberRole | keyvalue" [value]="role.value">
+        {{ role.value | translate }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>{{ "status" | translate }}</mat-label>
+    <mat-select [(ngModel)]="selectedStatus" (selectionChange)="onFilterChange($event, 'status')">
+      <mat-option value="all">{{ "all" | translate }}</mat-option>
+      <mat-option *ngFor="let status of memberStatus | keyvalue" [value]="status.value">
+        {{ status.value | translate }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

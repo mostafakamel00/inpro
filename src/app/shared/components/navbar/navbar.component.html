@@ -1,0 +1,14 @@
+<mat-toolbar>
+
+  <span>My App</span>
+  <span class="example-spacer"></span>
+
+  <button mat-button [matMenuTriggerFor]="langMenu">
+    {{ 'language' | translate }}
+  </button>
+
+  <mat-menu #langMenu="matMenu">
+    <button mat-menu-item (click)="changeLanguage('en')">English</button>
+    <button mat-menu-item (click)="changeLanguage('ar')">العربية</button>
+  </mat-menu>
+</mat-toolbar>

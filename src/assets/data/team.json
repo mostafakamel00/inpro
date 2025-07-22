@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Mostafa Kamel",
+    "role": "admin",
+    "status": "active",
+    "performance": 80
+  },
+  {
+    "id": 2,
+    "name": "Sara Youssef",
+    "role": "user",
+    "status": "inactive",
+    "performance": 60
+  },
+  {
+    "id": 3,
+    "name": "Ahmed Ali",
+    "role": "user",
+    "status": "inactive",
+    "performance": 73
+  },
+  {
+    "id": 4,
+    "name": "Mostafa Fawzy",
+    "role": "admin",
+    "status": "active",
+    "performance": 73
+  },
+  {
+    "id": 2,
+    "name": "Mariam Emad",
+    "role": "user",
+    "status": "active",
+    "performance": 67
+  }
+]

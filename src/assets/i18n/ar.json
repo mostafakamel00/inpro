@@ -1,0 +1,14 @@
+{
+  "name": "الاسم",
+  "role": "الدور",
+  "status": "الحالة",
+  "performance": "الأداء",
+  "performanceIndicator": "مؤشر الأداء",
+  "admin": "مسؤل",
+  "user": "مستخدم",
+  "all": "الكل",
+  "active": "نشيط",
+  "inactive": "غير نشط",
+  "language": "اللغه",
+  "footer": "تطبيقي — جميع الحقوق محفوظة."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Name",
+  "role": "Role",
+  "status": "Status",
+  "performance": "Performance",
+  "performanceIndicator": "Performance Indicator",
+  "admin": "Admin",
+  "user": "User",
+  "all": "All",
+  "active": "Active",
+  "inactive": "Inactive",
+  "language": "Language",
+  "footer": "My App — All rights reserved."
+}
